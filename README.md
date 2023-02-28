@@ -1,2 +1,6 @@
-# first_spoon
-From Skillfactory Data scene course.
+# Проект 0. Угадай число.
+
+
+## Оглавление.
+
+1. Описание проекта
