@@ -4,7 +4,7 @@ import numpy as np
 def game_core_v3(number: int=1) -> int:
     '''
     Guess random number from 1 to 100. 
-    Get the number with 7 trials maximum.
+    Getting the number with 7 trials maximum.
 
     
     Args:
@@ -23,10 +23,10 @@ def game_core_v3(number: int=1) -> int:
         if  number == predict_number:
             break
         else:
-            corrector = 50 // 2**count + 1 # step for number to try 
+            corrector = 50 // 2**count + 1 # step for next number to try 
 
             if number > predict_number:
-               predict_number += corrector
+                predict_number += corrector
             else:
                 predict_number -= corrector
 
@@ -39,8 +39,9 @@ for i in range(1,101):
     trials_list.append(game_core_v3(i))
 
 
+
 print (sum)
-print(trials_list)
+print((trials_list))
 
 
     
